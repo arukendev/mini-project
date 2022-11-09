@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta product="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>캐논코리아 주식회사</title>
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="business.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="nav.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
+    />
+    <script src="business.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <div class="header-top">
+          <button>
+            <img
+              src="https://kr.canon/resources/assets/img/common/ico_search_header.svg"
+            />
+          </button>
+          <a href="">로그인</a>
+          <a href="">회원가입</a>
+        </div>
+        <div class="header-bottom">
+          <h1 class="header-logo">
+            <a href="index.html"></a>
+          </h1>
+          <nav>
+            <ul class="headerUl-left">
+              <li><a href="">컨슈머</a></li>
+              <li><a href="business.html">비즈니스</a></li>
+              <li><a href="company.html">회사소개</a></li>
+              <li><a href="">이벤트</a></li>
+            </ul>
+            <ul class="headerUl-right">
+              <li>
+                <a href="">고객지원<a href="" class="header-link"></a></a>
+              </li>
+              <li>
+                <a href="">e스토어<a href="" class="header-link"></a></a>
+              </li>
+              <li>
+                <a href="">아카데미<a href="" class="header-link"></a></a>
+              </li>
+              <div class="head-buttons">
+                <button>다운로드센터</button>
+                <button>정품등록</button>
+              </div>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="bxslider">
+      <div class="banner-wrapB">
+        <div class="bannerB">
+          <img
+            class="main-imgB"
+            src="https://image.kr.canon/pds/banner/1663896703514_XoKbQRIHiN.jpg"
+          />
+        </div>
+        <div id="slideText">
+          고객님의 비즈니스 환경을 혁신적으로 강화 <br />
+          <p>보안 환경! 비용 절감! 편의성 솔루션</p>
+        </div>
+      </div>
+      <div class="banner-wrapB">
+        <div class="bannerB">
+          <img
+            class="main-imgB"
+            src="https://image.kr.canon/pds/banner/1663896768803_boiqwILbZj.jpg"
+          />
+        </div>
+        <div id="slideText">
+          8K 풀프레임 컴팩트 시네마 EOS 카메라 <br />
+          <p>EOS R5 C</p>
+        </div>
+      </div>
+      <div class="banner-wrapB">
+        <div class="bannerB">
+          <img
+            class="main-imgB"
+            src="https://image.kr.canon/pds/banner/1663896823720_qYyncbC4Ij.jpg"
+          />
+        </div>
+        <div id="slideText">
+          디지털트랜스포메이션 오피스를 선사하다<br />
+          <p>imageRUNNER ADVANCE DX C3835i</p>
+        </div>
+      </div>
+      <div class="banner-wrapB">
+        <div class="bannerB">
+          <img
+            class="main-imgB"
+            src="https://image.kr.canon/pds/banner/1663896877058_MIDD01pL0b.jpg"
+          />
+        </div>
+        <div id="slideText">
+          2/3인치 4K 방송용 카메라에 대응하는 광학성능 <br />
+          <p>UHD-DIGISUPER 90</p>
+        </div>
+      </div>
+    </div>
+
+    <table id="first">
+      <tr>
+        <td style="width: 15%">&nbsp;</td>
+        <td id="home">
+          <a href="https://kr.canon/main"
+            ><img
+              src="https://kr.canon/resources/assets/img/ico/ico_nav_home.svg"
+          /></a>
+        </td>
+        <td
+          onclick="dp_menu1()"
+          id="menu1"
+          class="button"
+          style="position: relative; width: 10%"
+        >
+          <p
+            style="
+              border-left: 1.2px solid rgba(255, 255, 255, 0.25);
+              margin-top: 10px;
+              margin-bottom: 10px;
+              text-align: left;
+              padding-left: 30px;
+            "
+          >
+            비즈니스
+          </p>
+          <div class="submenu1" id="drop-content1" style="width: 245px">
+            <span>
+              <p>컨슈머</p>
+              <p>비즈니스</p>
+            </span>
+          </div>
+        </td>
+        <td id="v1" onclick="dp_menu1()">
+          <p><i class="fas fa-chevron-down"></i></p>
+        </td>
+
+        <td id="menu2">
+          <div>
+            <div onclick="dp_menu2()" class="button" style="position: relative">
+              <p
+                style="
+                  border-left: 1.2px solid rgba(255, 255, 255, 0.25);
+                  text-align: left;
+                  padding-left: 30px;
+                "
+              >
+                디지털인쇄기
+              </p>
+            </div>
+
+            <div class="submenu2" id="drop-content2" style="width: 246px">
+              <p>디지털 인쇄기</p>
+              <p>복합기</p>
+              <p>대형프린터</p>
+              <p>레이저프린터</p>
+              <p>스캐너</p>
+              <p>팩시밀리</p>
+              <p>프로젝터</p>
+              <p>네트워크 카메라</p>
+              <p>의료기기</p>
+              <p>영상/방송 기기</p>
+              <p>웨어러블 카메라</p>
+              <p>정부조달제품</p>
+            </div>
+          </div>
+        </td>
+        <td id="v2" onclick="dp_menu2()">
+          <p><i class="fas fa-chevron-down"></i></p>
+        </td>
+        <td style="width: 50%">
+          <p style="border-left: 1.2px solid rgba(255, 255, 255, 0.25)">
+            &nbsp;
+          </p>
+        </td>
+      </tr>
+    </table>
+    <table id="titleB">
+      <tr>
+        <td><h2>제품 분류</h2></td>
+      </tr>
+    </table>
+    <table id="productTbl1">
+      <tr id="tb1tr1">
+        <td id="rightBorder" class="asdasd">
+          <img
+            src="https://kr.canon/resources/assets/img/@temp/@customer_img11.png"
+            alt="솔루션"
+          />
+          <div class="redbox2"><span>더 알아보기 ></span></div>
+        </td>
+        <td class="asdasd" style="border-right: 1px solid #e6e6e6">
+          <img
+            src="https://kr.canon/resources/assets/img/@temp/@customer_img12.png"
+            alt="디지털인쇄기"
+          />
+          <div class="redbox2"><span>더 알아보기 ></span></div>
+        </td>
+        <td class="asdasd">
+          <img
+            src="https://kr.canon/resources/assets/img/@temp/@customer_img13.png"
+            alt="복합기"
+          />
+          <div class="redbox2"><span>더 알아보기 ></span></div>
+        </td>
+      </tr>
+      <tr>
+        <td id="rbBorder">
+          <p class="product">솔루션</p>
+          <p class="memo">
+            보안! 비용절감! 편의성!<br />비즈니스 환경을 혁신적으로 향상
+          </p>
+        </td>
+        <td style="border-right: 1px solid #e6e6e6">
+          <p class="product">디지털인쇄기</p>
+          <p class="memo">
+            대량 인쇄부터 다품종 소량 인쇄까지<br />고품질, 고속 출력으로!!
+          </p>
+        </td>
+        <td id="bottomBorder">
+          <p class="product">복합기</p>
+          <p class="memo">복사, 프린트, 팩스, 스캔을<br />하나로 해결!!</p>
+        </td>
+      </tr>
+    </table>
+    <table id="productTbl2">
+      <tr id="tb2tr1">
+        <td class="asdasd" id="rightBorder">
+          <img
+            src="https://kr.canon/resources/assets/img/@temp/@customer_img14.png"
+            alt="대형프린터"
+          />
+          <div class="redbox"><span>더 알아보기 ></span></div>
+        </td>
+        <td class="asdasd" id="rightBorder">
+          <img
+            src="https://kr.canon/resources/assets/img/@temp/@customer_img15.png"
+            alt="팩시밀리"
+          />
+          <div class="redbox"><span>더 알아보기 ></span></div>
+        </td>
+        <td class="asdasd" id="rightBorder">
+          <img
+            src="https://kr.canon/resources/assets/img/@temp/@customer_img16.png"
+            alt="스캐너"
+          />
+          <div class="redbox"><span>더 알아보기 ></span></div>
+        </td>
+        <td class="asdasd">
+          <img
+            src="https://kr.canon/resources/assets/img/@temp/@customer_img17.png"
+            alt="레이저프린터"
+          />
+          <div class="redbox"><span>더 알아보기 ></span></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="tds" id="rbBorder">
+          <p class="product">대형프린터</p>
+          <p class="memo2">
+            선명하고 눈을 사로잡는 <br />출력을 지원하는 POSTER 프린터
+          </p>
+        </td>
+        <td class="tds" id="rbBorder">
+          <p class="product">팩시밀리</p>
+          <p class="memo2">
+            프린터와 팩스를<br />
+            동시에 쉽고 간편하게!
+          </p>
+        </td>
+        <td class="tds" id="rbBorder">
+          <p class="product">스캐너</p>
+          <p class="memo2">
+            최고 해상도에 원터치 조작,
+            <br />
+            컴팩트한 스타일까지!
+          </p>
+        </td>
+        <td class="tds" id="bottomBorder">
+          <p class="product">레이저프린터</p>
+          <p class="memo2">
+            사용편리성까지
+            <br />
+            고려한 오피스 파트너!
+          </p>
+        </td>
+      </tr>
+      <tr id="tb2tr1">
+        <td class="asdasd" id="rightBorder">
+          <img
+            src="https://kr.canon/resources/assets/img/@temp/@customer_img18.png"
+            alt="네트워크카메라"
+          />
+          <div class="redbox"><span>더 알아보기 ></span></div>
+        </td>
+        <td class="asdasd" id="rightBorder">
+          <img
+            src="https://kr.canon/resources/assets/img/@temp/@customer_img19.png"
+            alt="영상/방송"
+          />
+          <div class="redbox"><span>더 알아보기 ></span></div>
+        </td>
+        <td class="asdasd" id="rightBorder">
+          <img
+            src="https://kr.canon/resources/assets/img/@temp/@customer_img20.png"
+            alt="프로젝터"
+          />
+          <div class="redbox"><span>더 알아보기 ></span></div>
+        </td>
+        <td class="asdasd">
+          <img
+            src="https://kr.canon/resources/assets/img/@temp/@customer_img21.png"
+            alt="3D프린터"
+          />
+          <div class="redbox"><span>더 알아보기 ></span></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="tds" id="rbBorder">
+          <p class="product">네트워크카메라</p>
+          <p class="memo2">고품질 모니터링 실현</p>
+          <div class="redbox"><span>더 알아보기 ></span></div>
+        </td>
+        <td class="tds" id="rbBorder">
+          <p class="product">영상/방송</p>
+          <p class="memo2">
+            영화 및 영상 제작용 디지털 시네마 카메라와<br />
+            렌즈 라인업 시네마 EOS시스템
+          </p>
+          <div class="redbox"><span>더 알아보기 ></span></div>
+        </td>
+        <td class="tds" id="rbBorder">
+          <p class="product">프로젝터</p>
+          <p class="memo2">
+            고휘도 밝기, 선명한 화질 성공적인 <br />프리젠테이션을 위한 선택!
+          </p>
+          <div class="redbox"><span>더 알아보기 ></span></div>
+        </td>
+        <td class="tds" id="bottomBorder">
+          <p class="product">3D프린터</p>
+          <p class="memo2">
+            생각대로 "MAKE" <br />
+            당신의 생각이 현실로 다가오다
+          </p>
+          <div class="redbox"><span>더 알아보기 ></span></div>
+        </td>
+      </tr>
+      <tr id="tb2tr1">
+        <td class="asdasd" id="rightBorder">
+          <img
+            src="https://kr.canon/resources/assets/img/@temp/@customer_img22.png"
+            alt="의료기기"
+          />
+          <div class="redbox"><span>더 알아보기 ></span></div>
+        </td>
+        <td class="asdasd" id="rightBorder">
+          <img
+            src="https://kr.canon/resources/assets/img/@temp/@customer_img9.png"
+            alt="Wearable Camera"
+          />
+          <div class="redbox"><span>더 알아보기 ></span></div>
+        </td>
+        <td class="asdasd" id="rightBorder">
+          <img
+            src="https://kr.canon/resources/assets/img/@temp/@customer_img10.png"
+            alt="정부조달제품"
+          />
+          <div class="redbox"><span>더 알아보기 ></span></div>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="tds" id="rightBorder">
+          <p class="product">의료기기</p>
+          <p class="memo2">
+            파워풀한 성능과 컴팩트한 사이즈로<br />
+            편하고 신속하게!
+          </p>
+          <div class="redbox"><span>더 알아보기 ></span></div>
+        </td>
+        <td class="tds" id="rightBorder">
+          <p class="product">Wearable Camera</p>
+          <p class="memo2">
+            언제, 어디서나 360도 촬영이 가능한<br />
+            차세대 보안, 언택트 솔루션
+          </p>
+          <div class="redbox"><span>더 알아보기 ></span></div>
+        </td>
+        <td class="tds" id="rightBorder">
+          <p class="product">정부조달제품</p>
+          <p class="memo2">
+            공공기관에서도<br />
+            신뢰할 만한 기술력!
+          </p>
+          <div class="redbox"><span>더 알아보기 ></span></div>
+        </td>
+        <td></td>
+      </tr>
+    </table>
+    <table id="noticeEvent">
+      <tr id="topNe">
+        <td id="notice" class="left">공지사항</td>
+        <td id="plus" class="right">
+          <a href="https://kr.canon/company/notice/list">
+            <img
+              src="https://kr.canon/resources/assets/img/ico/ico_summarybox_plus.svg"
+          /></a>
+        </td>
+        <td style="width: 28px"></td>
+        <td id="event" class="left">이벤트</td>
+        <td id="plus" class="right">
+          <a href="https://kr.canon/event">
+            <img
+              src="https://kr.canon/resources/assets/img/ico/ico_summarybox_plus.svg"
+            />
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td class="left">
+          <a href="https://kr.canon/company/notice/detail/432935"
+            ><p>카카오 데이터센터 화재로 인한 홈페이지 접속 불안정</p></a
+          >
+          <a href="https://kr.canon/company/notice/detail/432835"
+            ><p>개인정보 처리 방침 개정 안내 (2022년 9월 29일 적용)</p></a
+          >
+          <a href="https://kr.canon/company/notice/detail/432757"
+            ><p>캐논코리아 직영점 추석 휴무 안내</p></a
+          >
+          <a href="https://kr.canon/company/notice/detail/432496"
+            ><p>2022년 8월 캐논 플렉스 휴무 일정 안내</p></a
+          >
+          <a href="https://kr.canon/company/notice/detail/432455"
+            ><p>2022년 3분기 RED 멤버십 등급 산정 일정 변경 안내</p></a
+          >
+        </td>
+        <td id="date" class="right">
+          <p>2022-10-17</p>
+          <p>2022-09-22</p>
+          <p>2022-09-05</p>
+          <p>2022-07-20</p>
+          <p>2022-07-04</p>
+        </td>
+        <td></td>
+        <td
+          id="right"
+          colspan="2"
+          style="vertical-align: top; padding-top: 50px"
+        >
+          <img
+            style="cursor: pointer"
+            src="https://kr.canon/resources/assets/img/ico/ico_sub_ban_play.svg"
+          />
+          <img
+            style="margin-left: 5px; cursor: pointer"
+            src="https://kr.canon/resources/assets/img/ico/ico_sub_ban_pause.svg"
+            alt=""
+          />
+        </td>
+      </tr>
+    </table>
+    <div class="nav-wrap">
+      <table
+        style="
+          font-size: 9pt;
+          font-weight: bold;
+          width: 94px;
+          padding: 16px 8px 0px 8px;
+          border-radius: 15px;
+          border: solid 1px #e6e6e6;
+          text-align: center;
+          background-color: white;
+        "
+      >
+        <tr>
+          <td>
+            <img
+              style="cursor: pointer"
+              src="https://kr.canon/resources/assets/img/ico/quickmenu-sitemap.svg"
+            />
+            <p style="cursor: pointer">사이트맵</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              style="cursor: pointer"
+              src="https://kr.canon/resources/assets/img/ico/quickmenu-partner.svg"
+            />
+            <p style="cursor: pointer">파트너웹</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              style="cursor: pointer"
+              src="https://kr.canon/resources/assets/img/ico/quickmenu-store.svg"
+            />
+            <p style="cursor: pointer">매장안내</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              style="width: 40px; cursor: pointer"
+              src="https://kr.canon/resources/assets/img/ico/quickmenu-sns.svg"
+            />
+            <p style="cursor: pointer">캐논SNS</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              style="cursor: pointer"
+              src="https://kr.canon/resources/assets/img/ico/quickmenu-inquiry.svg"
+            />
+            <p style="cursor: pointer">1:1문의</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              style="cursor: pointer"
+              src="https://kr.canon/resources/assets/img/ico/quickmenu-etax.svg"
+            />
+            <p style="cursor: pointer">전자세금</p>
+          </td>
+        </tr>
+        <tr id="closeBtn">
+          <td>
+            <img
+              style="cursor: pointer"
+              src="https://kr.canon/resources/assets/img/ico/quickmenu-list.svg"
+            />
+          </td>
+        </tr>
+      </table>
+    </div>
+    <footer>
+      <div class="footer_Container">
+        <div class="footer_nav_Container">
+          <div class="footer_nav_Wrap">
+            <div class="footer_nav_Row">
+              <li>컨슈머 제품</li>
+              <li>비즈니스 제품</li>
+              <li>라운지</li>
+              <li>제품 구입/지원</li>
+              <li>회사소개</li>
+              <button>
+                <img
+                  src="https://kr.canon/resources/assets/img/common/ico_footer_arrow.svg"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="footer_info_Container">
+          <div class="footer_info_Wrap">
+            <div class="footer_info_Link">
+              <a href="index.html">이용약관&nbsp&nbsp&nbsp</a>
+              <a href="index.html" id="centerinfo_Css1"
+                >&nbsp&nbsp&nbsp개인정보 처리방침&nbsp&nbsp&nbsp</a
+              >
+              <a href="index.html"
+                >&nbsp&nbsp&nbsp영상정보처리기기운영관리방침</a
+              >
+            </div>
+            <div class="footer_Info">
+              <span
+                >캐논코리아&nbsp(주)&nbsp&nbsp 대표자 :
+                박정우,혼마토시오&nbsp&nbsp&nbsp</span
+              >
+              <span id="centerinfo_Css1-1"
+                >&nbsp&nbsp&nbsp사업자등록번호 :
+                120-81-15636&nbsp&nbsp&nbsp</span
+              >
+              <span>&nbsp&nbsp&nbsp통신판매 번호 : 강남-01282</span>
+            </div>
+            <div class="footer_Info">
+              <span
+                >주소 : 서울특별시 강남구 테헤란로 607
+                (삼성동)&nbsp&nbsp&nbsp</span
+              >
+              <span id="centerinfo_Css2"
+                >&nbsp&nbsp&nbsp복합기 • 카메라 고객상담실 : 1533-3355 /
+                캐논비즈몰 고객상담실 : 1666-3037</span
+              >
+            </div>
+            <div class="footer_Info">
+              Copyright © CANON KOREA All Rights reserved
+            </div>
+            <div class="footer_reward">
+              <li>
+                <img
+                  src="https://kr.canon/resources/assets/img/main/img_footer_2.png"
+                /><span>가족친화 우수기업</span>
+              </li>
+              <li>
+                <img
+                  src="https://kr.canon/resources/assets/img/main/img_footer_3.png"
+                /><span>소비자 중심 경영</span>
+              </li>
+              <li>
+                <img
+                  src="https://kr.canon/resources/assets/img/main/img_footer_4.png"
+                /><span
+                  >[인증범위] 영업부문 IT운영관리<br />
+                  [유효기간] 2021.11.03 ~ 2024.11.02</span
+                >
+              </li>
+            </div>
+          </div>
+        </div>
+        <div class="footer_bottom">
+          <div class="footer_sns_Container">
+            <div class="footer_sns_Wrap">
+              <div class="footer_sns_Box">
+                <div id="footer_sns_Title">기업대표/복합기/프린터</div>
+                <div id="footer_sns_Icon">
+                  <a href="index.html">
+                    <img
+                      src="https://kr.canon/resources/assets/img/common/ico_youtube.svg"
+                    />
+                  </a>
+                  <a href="index.html" id="icon_Margin">
+                    <img
+                      src="https://kr.canon/resources/assets/img/common/ico_facebook.svg"
+                    />
+                  </a>
+                  <a href="index.html" id="icon_Margin">
+                    <img
+                      src="https://kr.canon/resources/assets/img/common/ico_blog.svg"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="footer_sns_Box">
+                <div id="footer_sns_Title">카메라/렌즈</div>
+                <div id="footer_sns_Icon">
+                  <a href="index.html">
+                    <img
+                      src="https://kr.canon/resources/assets/img/common/ico_youtube.svg"
+                    />
+                  </a>
+                  <a href="index.html" id="icon_Margin">
+                    <img
+                      src="https://kr.canon/resources/assets/img/common/ico_insta.svg"
+                    />
+                  </a>
+                  <a href="index.html" id="icon_Margin">
+                    <img
+                      src="https://kr.canon/resources/assets/img/common/ico_facebook.svg"
+                    />
+                  </a>
+                  <a href="index.html" id="icon_Margin">
+                    <img
+                      src="https://kr.canon/resources/assets/img/common/ico_blog.svg"
+                    />
+                  </a>
+                  <a href="index.html" id="icon_Margin">
+                    <img
+                      src="https://kr.canon/resources/assets/img/common/ico_post.png"
+                    />
+                  </a>
+                  <a href="index.html" id="icon_Margin">
+                    <img
+                      src="https://kr.canon/resources/assets/img/common/ico_kakao.svg"
+                    />
+                  </a>
+                  <a href="index.html" id="icon_Margin">
+                    <img
+                      src="https://kr.canon/resources/assets/img/common/ico_twitter.svg"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="footer_sns_button">
+              <div class="button_Box">
+                <button>
+                  Family Site
+                  <img
+                    src="https://kr.canon/resources/assets/img/common/ico_arrow_select_bottom.svg"
+                  />
+                </button>
+                <button>
+                  캐논 관계사 Site
+                  <img
+                    src="https://kr.canon/resources/assets/img/common/ico_arrow_select_bottom.svg"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      $(".bxslider").bxSlider({
+        auto: true,
+        autoControls: true,
+        stopAutoOnClick: true,
+        pager: true,
+        slideWidth: 1920,
+      });
+    </script>
+    <script>
+      function dp_menu1() {
+        let click1 = document.getElementById("drop-content1");
+        let click2 = document.getElementById("drop-content2");
+        let v1 = document.getElementById("v1");
+        let v2 = document.getElementById("v2");
+
+        if (click1.style.display === "none") {
+          click1.style.display = "block";
+          v1.style.transform = "rotate(180deg)";
+          click2.style.display = "none";
+          v2.style.transform = "rotate(0deg)";
+        } else {
+          click1.style.display = "none";
+          v1.style.transform = "rotate(0deg)";
+        }
+      }
+    </script>
+    <script>
+      function dp_menu2() {
+        let click1 = document.getElementById("drop-content1");
+        let click2 = document.getElementById("drop-content2");
+        let v1 = document.getElementById("v1");
+        let v2 = document.getElementById("v2");
+
+        if (click2.style.display === "none") {
+          click2.style.display = "block";
+          v2.style.transform = "rotate(180deg)";
+          click1.style.display = "none";
+          v1.style.transform = "rotate(0deg)";
+        } else {
+          click2.style.display = "none";
+          v2.style.transform = "rotate(0deg)";
+        }
+      }
+
+      let asdasd = document.querySelectorAll(".asdasd");
+      asdasd.forEach(function (event) {
+        event.addEventListener("mouseover", function (e) {
+          let element = e.currentTarget;
+          let div = element.children[1];
+          div.style.opacity = 1;
+        });
+      });
+      asdasd.forEach(function (event) {
+        event.addEventListener("mouseleave", function (e) {
+          let element = e.currentTarget;
+          let div = element.children[1];
+          div.style.opacity = 0;
+        });
+      });
+    </script>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

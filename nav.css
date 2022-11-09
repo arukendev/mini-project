@@ -1,0 +1,9 @@
+.nav-wrap {
+  position: fixed;
+  bottom: 60px;
+  right: 45px;
+}
+
+.nav-wrap table {
+  height: 510px;
+}

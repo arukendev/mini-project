@@ -1,0 +1,337 @@
+.semi-header {
+  margin: 0 auto;
+  margin-top: 100px;
+  max-width: 1200px;
+  text-align: right;
+  color: #666;
+  padding: 20px 0;
+  font-size: 13px;
+}
+
+.semi-header span {
+  margin-left: 10px;
+}
+
+.banner-wrap {
+  position: relative;
+  overflow: hidden;
+  height: 560px;
+}
+
+.banner {
+  position: absolute;
+  width: 1920px;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: grid;
+  grid-template-columns: 1fr 1200px 1fr;
+}
+
+#main-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#company-title {
+  position: absolute;
+  top: 25%;
+  grid-column: 2;
+  color: white;
+  font-size: 50px;
+}
+
+#company-title div:first-child {
+  color: #dc000c;
+  font-size: 32px;
+  margin-bottom: 18px;
+}
+
+#company-title div:nth-child(2),
+#company-title div:nth-child(3) {
+  font-weight: 700;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-top: 120px;
+}
+
+.main-description {
+  font-size: 22px;
+  margin-top: 17px;
+}
+
+.link-menu {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-menu a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 278px;
+  height: 350px;
+  background-color: #f9f9f9;
+  transition: all 0.2s ease-in-out;
+}
+
+.link-menu i {
+  padding-top: 50px;
+  opacity: 0;
+  color: white;
+}
+
+.link-menu a:hover {
+  transform: translateY(-50px);
+  background-color: #dc000c;
+  color: white;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.link-menu a:hover > span,
+.link-menu a:hover > img {
+  transform: translateY(-20px);
+}
+
+.link-menu a:hover > img {
+  filter: invert(100%) sepia(12%) saturate(0%) hue-rotate(318deg)
+    brightness(113%) contrast(100%);
+}
+
+.link-menu a:hover > i {
+  opacity: 1;
+}
+
+.link-menu span {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.activity-menu-wrap {
+  margin-top: 120px;
+  padding: 120px 0;
+  background-color: black;
+}
+
+.activity-menu {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.activity-menu h2 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 600;
+  color: #dc000c;
+}
+
+.activity-menu p {
+  margin: 0;
+  margin-top: 17px;
+  color: white;
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.activity-menu-right {
+  padding-top: 60px;
+}
+
+.bx-wrapper {
+  width: 728px;
+  border: none;
+  box-shadow: none;
+  background-color: black;
+}
+
+.bx-contents {
+  cursor: pointer;
+}
+
+.txt-wrap {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.txt-wrap img {
+  margin-right: 21px;
+  display: inline-block;
+}
+
+.ps {
+  display: inline-block;
+}
+
+.ps p {
+  margin: 0;
+  text-align: center;
+}
+
+.ps p:first-child {
+  font-size: 17px;
+}
+
+.ps p:last-child {
+  font-size: 24px;
+  margin-top: 4px;
+  font-weight: 700;
+}
+
+.news-wrap {
+  padding: 120px 0;
+  display: grid;
+  grid-template-columns: 1fr 5.3fr;
+  background-color: #f9f9f9;
+}
+
+.news {
+  display: flex;
+}
+
+.news-left {
+  width: 410px;
+}
+
+.news-left h3 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.news-right {
+  width: 100%;
+}
+
+.link-menu2-wrap {
+  padding: 150px 0;
+}
+
+.link-menu2 {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link-menu2 a {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 380px;
+  height: 260px;
+  background-color: rgba(0, 0, 0, 0.65);
+  overflow: hidden;
+}
+
+.link-menu2 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1);
+}
+
+.link-menu2 a:hover img {
+  transform: scale(1.2);
+}
+
+.link-menu2 span {
+  font-size: 30px;
+  color: white;
+  font-weight: 500;
+}
+
+.link-menu2 div {
+  width: 50px;
+  height: 50px;
+  background-image: url("https://kr.canon/resources/assets/img/ico/ico_company_link2_plus.svg");
+  margin: 0 auto 10px;
+}
+
+.map-wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.map-wrap h3 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.map {
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 120px;
+}
+
+.map-left {
+  padding-right: 50px;
+}
+
+.map-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.map-links {
+  display: flex;
+}
+
+.map-links a {
+  font-size: 17px;
+}
+
+.map-links a:first-child {
+  margin-right: 21px;
+  color: #dc000c;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #dc000c;
+}
+
+.map-links a:last-child {
+  color: #999;
+}
+
+.map-links h4 {
+  margin: 0;
+}
+
+.map-info dl:not(.map-info dl:first-child) {
+  margin-top: 24px;
+}
+
+.map-info dt {
+  font-size: 14px;
+  line-height: 20px;
+  color: #666;
+}
+
+.map-info dd {
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 6px;
+  line-height: 26px;
+}
+
+.map-info p {
+  font-size: 12px;
+  font-weight: 400;
+}

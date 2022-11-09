@@ -1,0 +1,157 @@
+li {
+  list-style: none;
+}
+
+.footer_nav_Container {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.footer_nav_Wrap {
+  width: 1200px;
+  height: 86px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer_nav_Row {
+  width: 100%;
+  height: 86px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_nav_Row li {
+  font-weight: bold;
+}
+
+.footer_nav_Wrap button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 0px;
+  border: 1px solid black;
+}
+
+.footer_info_Container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 44px 0px 24px;
+}
+
+.footer_info_Wrap {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: -1px;
+}
+
+.footer_info_Link a {
+  font-size: 14px;
+  color: grey;
+  font-weight: 500;
+}
+
+.footer_info_Link #centerinfo_Css1 {
+  color: black;
+  font-weight: bold;
+}
+
+#information_Use {
+  font-weight: bold;
+  margin: 0 8px;
+  color: black;
+}
+
+.footer_Info {
+  margin-top: 15px;
+  font-size: 12px;
+  color: grey;
+}
+
+#centerinfo_Css1 {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+#centerinfo_Css2 {
+  border-left: 1px solid #ccc;
+}
+
+.footer_reward {
+  display: flex;
+  height: 55px;
+  margin-top: 20px;
+}
+.footer_reward li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 12px;
+  margin-right: 20px;
+  color: grey;
+}
+
+.footer_reward span {
+  margin-left: 5px;
+}
+
+.footer_bottom {
+  background-color: #f9f9f9;
+}
+
+.footer_sns_Container {
+  width: 1200px;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer_sns_Wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_sns_Box {
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+}
+
+#footer_sns_Title {
+  font-size: 14px;
+}
+
+#footer_sns_Icon {
+  margin-top: 10px;
+}
+
+#icon_Margin {
+  margin-left: 20px;
+}
+
+.button_Box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 410px;
+}
+
+.button_Box button {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 6px;
+  border: 1px solid #e6e6e6;
+  width: 200px;
+  height: 40px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 14px;
+}

@@ -1,0 +1,304 @@
+body {
+  margin-top: 100px;
+}
+
+table {
+  text-align: center;
+}
+#slideText {
+  position: absolute;
+  top: 155px;
+  color: white;
+  font-size: 16pt;
+  padding-left: 36px;
+  margin-left: 180px;
+  letter-spacing: -1px;
+}
+#slideText p {
+  margin-top: 10px;
+  font-size: 35pt;
+  font-weight: bold;
+}
+
+#first {
+  background-color: black;
+  color: white;
+  width: 100%;
+  font-weight: bold;
+}
+
+#home {
+  padding-left: 50px;
+  padding-right: 20px;
+  width: 75px;
+}
+#menu1 {
+  position: relative;
+  width: 180px;
+  cursor: pointer;
+}
+.submenu1 p {
+  cursor: pointer;
+}
+.submenu1 p:hover {
+  text-decoration: underline;
+}
+
+#menu2 {
+  position: relative;
+  width: 180px;
+  cursor: pointer;
+}
+.submenu2 p {
+  cursor: pointer;
+}
+.submenu2 p:hover {
+  text-decoration: underline;
+}
+
+#v1 {
+  cursor: pointer;
+  width: 60px;
+  transition: all 0.2s ease-in-out;
+}
+
+#v2 {
+  cursor: pointer;
+  width: 60px;
+  transition: all 0.2s ease-in-out;
+}
+
+#titleB {
+  width: 1200px;
+  text-align: unset;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding-left: 20px;
+  font-family: "Roboto", "NotoSansKR", Arial, AppleGothic, verdana, sans-serif;
+}
+#productTbl1 {
+  margin: 0 auto;
+}
+
+#tb1tr1 {
+  height: 320px;
+}
+
+#productTbl1 td {
+  width: 450px;
+}
+#productTbl1 img {
+  width: 250px;
+}
+
+#productTbl2 {
+  margin: 0 auto;
+}
+#productTbl2 td {
+  width: 333px;
+}
+
+#tb2tr1 {
+  height: 220px;
+}
+#topNe {
+  font-size: 22px;
+  font-weight: bold;
+  border-bottom: 1px solid #111111;
+}
+
+#noticeEvent {
+  margin: 80px auto;
+  width: 1210px;
+}
+
+#notice {
+  width: 180px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+#event {
+  width: 180px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+#plus {
+  font-weight: lighter;
+  border-bottom: 1px solid black;
+  width: 40px;
+}
+
+#date {
+  color: #666;
+  font-size: 13pt;
+}
+#date p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#rightBorder {
+  border-right: 1px solid #e6e6e6;
+}
+#rbBorder {
+  border-right: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+#bottomBorder {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+/* --------------------------------------------------------------------- */
+
+.product {
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.memo {
+  border: 0;
+  font-size: smaller;
+  font-weight: 500;
+  color: #666;
+  padding-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 45px;
+}
+.memo2 {
+  border: 0;
+  font-size: smaller;
+  font-weight: 500;
+  color: #666;
+  padding-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.left p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.left p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.submenu1 {
+  display: none;
+  padding-left: 40px;
+  margin-top: 8px;
+  text-align: left;
+
+  font-weight: normal;
+  border: #111111 solid 1px;
+  width: 250px;
+  background-color: white;
+  color: black;
+  z-index: 99;
+
+  position: absolute;
+}
+.submenu2 {
+  display: none;
+  padding-left: 40px;
+  margin-top: 2px;
+  text-align: left;
+  overflow: auto;
+  font-weight: normal;
+  border: #111111 solid 1px;
+  width: 250px;
+  height: 400px;
+  background-color: white;
+  color: black;
+  z-index: 99;
+
+  position: absolute;
+}
+
+#menu1:active .submenu1 {
+  opacity: 1;
+}
+#menu2:hover .submenu2 {
+  opacity: 1;
+}
+
+.redbox {
+  width: 100%;
+  height: 110px;
+  background-color: #dc000c;
+  opacity: 0;
+  color: white;
+  position: absolute;
+  top: 220px;
+  bottom: 0;
+  left: -2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  cursor: pointer;
+}
+.asdasd {
+  position: relative;
+  cursor: pointer;
+}
+.redbox2 {
+  width: 100%;
+  height: 150px;
+  background-color: #dc000c;
+  opacity: 0;
+  color: white;
+  position: absolute;
+  top: 320px;
+  bottom: 0;
+  left: -1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  cursor: pointer;
+}
+/* .redbox:hover {
+  opacity: 1;
+} */
+
+.banner-wrapB {
+  position: relative;
+  overflow: hidden;
+  height: 480px;
+}
+
+.bannerB {
+  position: absolute;
+  width: 1920px;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#main-imgB {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#btn {
+  display: none;
+}
+#btn:checked + label > img {
+  width: 75px;
+  height: 75px;
+}
