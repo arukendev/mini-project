@@ -48,6 +48,7 @@
   color: #dc000c;
   font-size: 32px;
   margin-bottom: 18px;
+  font-weight: 500;
 }
 
 #company-title div:nth-child(2),
@@ -149,7 +150,7 @@ main {
   padding-top: 60px;
 }
 
-.bx-wrapper {
+.activity-menu-right > .bx-wrapper {
   width: 728px;
   border: none;
   box-shadow: none;
@@ -165,7 +166,7 @@ main {
   text-align: center;
 }
 
-.txt-wrap img {
+.txt-wrap > img {
   margin-right: 21px;
   display: inline-block;
 }
@@ -174,16 +175,16 @@ main {
   display: inline-block;
 }
 
-.ps p {
+.ps > p {
   margin: 0;
   text-align: center;
 }
 
-.ps p:first-child {
+.ps > p:first-child {
   font-size: 17px;
 }
 
-.ps p:last-child {
+.ps > p:last-child {
   font-size: 24px;
   margin-top: 4px;
   font-weight: 700;
@@ -191,12 +192,13 @@ main {
 
 .news-wrap {
   padding: 120px 0;
-  display: grid;
-  grid-template-columns: 1fr 5.3fr;
   background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
 }
 
 .news {
+  width: 1200px;
   display: flex;
 }
 
@@ -205,12 +207,42 @@ main {
 }
 
 .news-left h3 {
+  margin: 0;
   font-size: 40px;
   font-weight: 700;
 }
 
-.news-right {
-  width: 100%;
+.news-right > .bx-wrapper {
+  width: 540px;
+  border: none;
+  box-shadow: none;
+  background-color: #f9f9f9;
+}
+
+.ps2 {
+  width: 540px;
+  margin-top: 20px;
+}
+
+.ps2 p:first-child {
+  font-size: 24px;
+  font-weight: 700;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ps2 p:last-child {
+  height: 88px;
+  font-size: 16px;
+  color: #666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 8px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
 }
 
 .link-menu2-wrap {

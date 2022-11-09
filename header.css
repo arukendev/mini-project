@@ -33,7 +33,6 @@ header {
   z-index: 10001;
   background-color: white;
   min-width: 1200px;
-  overflow: hidden;
 }
 
 #black {
@@ -134,6 +133,62 @@ nav button {
   border-bottom: 4px solid #dc000c;
 }
 
+.menu-white {
+  overflow: hidden;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  left: 0;
+  background: #fff;
+  transition: height 0.3s;
+  z-index: 10002;
+}
+
+.menu-black {
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: height 0.3s ease-in-out;
+}
+
+.h-con:hover .menu-white {
+  height: 562px;
+}
+
+.h-con:hover .menu-black {
+  top: 662px;
+  height: 100vh;
+}
+
+.h-bus:hover .menu-white {
+  height: 646px;
+}
+
+.h-bus:hover .menu-black {
+  top: 746px;
+  height: 100vh;
+}
+
+.h-com:hover .menu-white {
+  height: 520px;
+}
+
+.h-com:hover .menu-black {
+  top: 620px;
+  height: 100vh;
+}
+
+.h-eve:hover .menu-white {
+  height: 226px;
+}
+
+.h-eve:hover .menu-black {
+  top: 326px;
+  height: 100vh;
+}
+
 .header-link {
   display: inline-block;
   margin-left: 3px;
@@ -152,5 +207,3 @@ nav button {
 .head-buttons button:last-child {
   background-color: #dc000c;
 }
-
-/*---------- 헤더 -----------*/
